@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#FFF8F0;
+    color:#1B1B1B;
+}
+
+.glass-nav{
+    background:rgba(0,0,0,.4);
+    backdrop-filter:blur(10px);
+}
+
+.hero{
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+
+    background-size:cover;
+    background-position:center;
+}
+
+.search-box{
+    max-width:500px;
+    border-radius:50px;
+     overflow:hidden;
+    background:white;
+}
+
+.search-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:18px 25px;
+}
+
+.card{
+    border:none;
+    border-radius:25px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+}
+
+.card img{
+    height:300px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:25px;
+}
+.about-section{
+    background:#FAEDCD;
+}
+
+.reservation-form{
+    max-width:900px;
+}
+
+.footer{
+    background:#1B1B1B;
+}
+
+.dark{
+    background:#111;
+    color:white;
+}
+
+.dark .card{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark .search-box{
+    background:#1f1f1f;
+}
+
+.dark .search-box input{
+    background:#1f1f1f;
+    color:white;
+}
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:3rem;
+    }
+
+}
